@@ -1,0 +1,127 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  vars:
+    oh_my_zsh_theme: robbyrussell
+    oh_my_zsh_plugins:
+      - git
+      - dotenv
+      - aws
+      - django
+      - colored-man-pages
+      - colorize
+      - npm
+      - git-flow
+      - pip
+      - dircycle
+      - dirhistory
+      - sudo
+      - virtualenv
+      - copydir
+      - autojump
+      - history-substring-search
+      - tmux
+      - osx
+
+      - zsh-apple-touchbar
+      - zsh-syntax-highlighting  # and all other guys
+      - zsh-autosuggestions
+      - zsh-interactive-cd
+      - zsh-navigation-tools
+      - zsh-completions
+
+  tasks:
+    - name: Install apt packages
+      become: true
+      package:
+        name: "{{ item }}"
+        state: latest
+      with_items:
+        # всякие библиоткеи для питона
+        - libssl-dev
+        - zlib1g-dev
+        - libbz2-dev
+        - libreadline-dev
+        - libsqlite3-dev
+
+        - python
+        - python3
+        - python-pip
+        - python3-pip
+        - python3-apt
+        - python3-dev
+        - ansible
+
+        # всякие штуки для удобства
+        - vim
+        - zsh
+        - autojump
+        - tmux
+        - fzf
+        - ruby
+        - ruby-dev
+        - virtualenv
+        - libpq-dev
+        - bash-completion
+
+        - net-tools
+        - apt-utils
+        - sudo
+        - aptitude
+        - llvm
+        - build-essential
+        - wget
+        - curl
+        - libncurses5-dev
+        - git
+        - gcc
+        - make
+        - cmake
+        - fonts-dejavu
+        - gfortran
+
+    - name: Install gem packages
+      gem:
+        name: "{{ item }}"
+        state:  latest
+      with_items:
+        - rake
+        - lolcat
+        - colorls
+
+    - name: Install pip packages
+      pip:
+        name: ['virtualenv', 'setuptools', 'awscli', 'psycopg2', 'python-jenkins', 'lxml', 'jenkins']
+        state:  latest
+
+#    - name: Install cargo packages
+#      cargo:
+#        name: "{{ item }}"
+#        state: latest
+#      with_items:
+#        - ripgrep
+#        - fd-find
+#        - exa
+#        - topgrade
+
+
+  roles:
+    - role: geerlingguy.pip
+
+    - role: gantsign.oh-my-zsh
+      users:
+        - username: root
+          oh_my_zsh:
+            theme: powerlevel10k/powerlevel10k
+
+#    - role: abaez.rustup
+#      conf:
+#        shell: zsh
+#        specifics: true
+#        parallel: true
+
+#    - robertdebock.bootstrap
+#    - robertdebock.buildtools
+    - robertdebock.cargo
+
+    - role: common

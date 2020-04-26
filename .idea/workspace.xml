@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="267a60c2-6ba9-4cc1-9438-9d4dc995f1ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZwXctNi1tiEyysODFEj9YJoE5u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="267a60c2-6ba9-4cc1-9438-9d4dc995f1ef" name="Default Changelist" comment="" />
+      <created>1585751212906</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585751212906</updated>
+      <workItem from="1585751214388" duration="8835000" />
+      <workItem from="1585769487991" duration="32000" />
+      <workItem from="1585836882856" duration="455000" />
+      <workItem from="1586087594891" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="376" y="-899" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585753208776">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="376" y="-899" key="#com.intellij.fileTypes.FileTypeChooser/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.-1417.2560.1417" timestamp="1585753208776" />
+    <state x="317" y="175" key="SettingsEditor" timestamp="1585837351395">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="317" y="175" key="SettingsEditor/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1585837351395" />
+    <state x="276" y="123" width="1080" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586087653856">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="276" y="123" width="1080" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1586087653856" />
+    <state x="203" y="417" key="com.intellij.ide.util.TipDialog" timestamp="1586087609319">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="310" y="-874" key="com.intellij.ide.util.TipDialog/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.-1417.2560.1417" timestamp="1585836886819" />
+    <state x="203" y="417" key="com.intellij.ide.util.TipDialog/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1586087609319" />
+    <state x="986" y="-1417" width="1041" height="1417" key="dock-window-1" timestamp="1585759303882">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="986" y="-1417" width="1041" height="1417" key="dock-window-1/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.-1417.2560.1417" timestamp="1585759303882" />
+    <state x="317" y="-945" width="645" height="472" key="find.popup" timestamp="1585761142712">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="317" y="-945" width="645" height="472" key="find.popup/-1024.-993.1024.1257/0.-1417.2560.1417/0.23.1680.1027@0.-1417.2560.1417" timestamp="1585761142712" />
+  </component>
+</project>
